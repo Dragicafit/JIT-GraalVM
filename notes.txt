@@ -1,6 +1,10 @@
 graalvm = marketing / twitter
 
 
+graal est embarqué dans openJDK 11 mais pas dans 17 -> utilisation de GraalVM
+-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
+-XX:-EnableJVMCI
+
 level :
 0 = interpret
 1/2/3 = C1
@@ -17,5 +21,8 @@ memory allocation
 initTimer = see what is load
 
 bootstrap = run all java.* package to make it hot
+-XX:+BootstrapJVMCI -XX:-UseJVMCINativeLibrary
 
 https://youtu.be/Rvb-kvuPzqI
+
+https://www.baeldung.com/jvm-tiered-compilation
