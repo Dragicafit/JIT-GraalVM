@@ -1,5 +1,6 @@
 graalvm = marketing / twitter
 
+JDK Enhancement-Proposal : JEP
 
 graal est embarqué dans openJDK 11 mais pas dans 17 -> utilisation de GraalVM
 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
@@ -54,3 +55,26 @@ blender2 = optimisation trouvée au runtime
 blender6 = blender but more efficient for native
 
 blender7 = blender4
+
+
+
+demo :
+
+cd demo
+
+export JAVA_HOME=~/Téléchargements/jdk-11.0.14+9/
+$JAVA_HOME/bin/javac Blender4.java
+$JAVA_HOME/bin/java Blender4
+$JAVA_HOME/bin/java -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler Blender4
+
+export JAVA_HOME=~/Téléchargements/jdk-17.0.1+12/
+$JAVA_HOME/bin/javac Blender4.java
+$JAVA_HOME/bin/java Blender4
+$JAVA_HOME/bin/java -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler Blender4
+
+jdk retire inutile -> utilisation de GraalVM
+
+export JAVA_HOME=~/Téléchargements/graalvm-ce-java17-21.3.0/
+$JAVA_HOME/bin/java -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler Blender4
+$JAVA_HOME/bin/java Blender4
+$JAVA_HOME/bin/java -XX:-UseJVMCICompiler Blender4

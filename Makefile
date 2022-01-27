@@ -8,19 +8,19 @@ VM_OPT_FOR_GRAALVM = -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOpt
 BUILD_FOLDER = bin
 
 .PHONY: all
-all: blender blender2 blender3 blender4 blender5 blender6 blender7 count_uppercase fibo fibo2 fibo3
+all: blender blender2 blender3 blender4 blender5 blender6 blender7 fibo fibo2
 
 .PHONY: run-all
 run-all: run-OpenJDK-all run-GraalVM-all run-native-all
 
 .PHONY: run-OpenJDK-all
-run-OpenJDK-all: run-OpenJDK-blender run-OpenJDK-blender2 run-OpenJDK-blender3 run-OpenJDK-blender4 run-OpenJDK-blender5 run-OpenJDK-blender6 run-OpenJDK-blender7 run-OpenJDK-count_uppercase run-OpenJDK-fibo run-OpenJDK-fibo2 run-OpenJDK-fibo3
+run-OpenJDK-all: run-OpenJDK-blender run-OpenJDK-blender2 run-OpenJDK-blender3 run-OpenJDK-blender4 run-OpenJDK-blender5 run-OpenJDK-blender6 run-OpenJDK-blender7 run-OpenJDK-fibo run-OpenJDK-fibo2
 
 .PHONY: run-GraalVM-all
-run-GraalVM-all: run-GraalVM-blender run-GraalVM-blender2 run-GraalVM-blender3 run-GraalVM-blender4 run-GraalVM-blender5 run-GraalVM-blender6 run-GraalVM-blender7 run-GraalVM-count_uppercase run-GraalVM-fibo run-GraalVM-fibo2 run-GraalVM-fibo3
+run-GraalVM-all: run-GraalVM-blender run-GraalVM-blender2 run-GraalVM-blender3 run-GraalVM-blender4 run-GraalVM-blender5 run-GraalVM-blender6 run-GraalVM-blender7 run-GraalVM-fibo run-GraalVM-fibo2
 
 .PHONY: run-native-all
-run-native-all: run-native-blender run-native-blender2 run-native-blender3 run-native-blender4 run-native-blender5 run-native-blender6 run-native-blender7 run-native-count_uppercase run-native-fibo run-native-fibo2 run-native-fibo3
+run-native-all: run-native-blender run-native-blender2 run-native-blender3 run-native-blender4 run-native-blender5 run-native-blender6 run-native-blender7 run-native-fibo run-native-fibo2
 
 .PHONY: blender
 blender: $(BUILD_FOLDER)/blender
