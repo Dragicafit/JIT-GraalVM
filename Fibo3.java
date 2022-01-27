@@ -1,7 +1,7 @@
 
 public class Fibo3 {
 	public static void main(String args[]) {
-		fibo(40);
+		System.out.println(fibo(42));
 	}
 
 	static long fibo(long n) {

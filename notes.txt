@@ -1,0 +1,21 @@
+graalvm = marketing / twitter
+
+
+level :
+0 = interpret
+1/2/3 = C1
+4 = C2 or Graal
+
+graal remplace C2
+
+graal is wirtten in java / C2 is in c++
+graal uses Java Heap / C2 use malloc
+graal compile itsel using JIT / C2 is static
+
+memory allocation
+
+initTimer = see what is load
+
+bootstrap = run all java.* package to make it hot
+
+https://youtu.be/Rvb-kvuPzqI

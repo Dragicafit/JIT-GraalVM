@@ -37,14 +37,14 @@ public class Blender3 {
 	private static final Color[][][] colors = new Color[100][100][100];
 
 	public static void main(String[] args) {
-		b=args.length==1;
+		b = args.length == 1;
 		for (int j = 0; j < 10; j++) {
-			long t = System.nanoTime();
+			long t = System.currentTimeMillis();
 			for (int i = 0; i < 100; i++) {
 				initialize(new Color(j / 20, 0, 1));
 			}
-			long d = System.nanoTime() - t;
-			System.out.println(d / 1_000_000 + " ms");
+			System.out.println(System.currentTimeMillis() - t);
+			System.out.println(colors.length);
 		}
 	}
 

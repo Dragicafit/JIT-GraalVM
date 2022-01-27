@@ -2,8 +2,8 @@ JAVAC = $(GRAALVM_HOME)/bin/javac
 JAVA = $(GRAALVM_HOME)/bin/java
 NATIVE_IMAGE = $(GRAALVM_HOME)/bin/native-image
 
-VM_OPT_FOR_OPENJDK = -XX:-UseJVMCICompiler -XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation -XX:+PrintAssembly
-VM_OPT_FOR_GRAALVM = -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation -XX:+PrintAssembly
+VM_OPT_FOR_OPENJDK = -XX:-UseJVMCICompiler -XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation
+VM_OPT_FOR_GRAALVM = -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation
 
 BUILD_FOLDER = bin
 

@@ -1,0 +1,827 @@
+OpenJDK Blender
+826
+730
+727
+718
+730
+737
+725
+716
+717
+722
+OpenJDK Blender2
+9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+OpenJDK Blender3
+828
+729
+727
+727
+728
+730
+729
+743
+742
+738
+OpenJDK Blender4
+614
+520
+516
+517
+516
+526
+525
+518
+517
+514
+OpenJDK Blender5
+619
+415
+360
+289
+277
+290
+277
+281
+279
+274
+OpenJDK Blender6
+1344
+1279
+1274
+1278
+1280
+1278
+1278
+1278
+1272
+1276
+OpenJDK Blender7
+637
+672
+600
+716
+603
+625
+599
+620
+602
+621
+OpenJDK Fibo
+284
+282
+282
+281
+281
+OpenJDK Fibo2
+292
+307
+305
+296
+297
+297
+296
+306
+GraalVM Blender
+916
+889
+888
+887
+882
+885
+882
+883
+890
+881
+GraalVM Blender2
+27
+4
+4
+4
+4
+4
+4
+4
+4
+4
+GraalVM Blender3
+907
+891
+889
+887
+891
+889
+885
+884
+888
+882
+GraalVM Blender4
+89
+62
+61
+60
+57
+50
+50
+50
+51
+50
+GraalVM Blender5
+620
+407
+316
+275
+290
+273
+267
+269
+263
+264
+GraalVM Blender6
+1179
+1121
+1124
+1130
+1127
+1130
+1128
+1127
+1134
+1134
+GraalVM Blender7
+873
+86
+113
+95
+102
+72
+89
+76
+79
+80
+GraalVM Fibo
+471
+464
+436
+430
+429
+GraalVM Fibo2
+281
+291
+433
+315
+310
+314
+312
+313
+NativeImage blender
+926
+922
+913
+905
+907
+905
+905
+907
+904
+906
+NativeImage blender2
+61
+60
+59
+59
+58
+58
+59
+59
+58
+58
+NativeImage blender3
+910
+905
+896
+890
+891
+888
+887
+889
+887
+889
+NativeImage blender4
+842
+840
+839
+832
+826
+827
+826
+826
+826
+828
+NativeImage blender5
+635
+606
+611
+613
+614
+628
+625
+616
+606
+601
+NativeImage blender6
+1147
+1145
+1144
+1141
+1134
+1134
+1134
+1136
+1134
+1134
+NativeImage blender7
+843
+837
+907
+823
+823
+898
+822
+823
+898
+823
+NativeImage fibo
+438
+437
+439
+438
+438
+NativeImage fibo2
+469
+454
+455
+454
+456
+458
+458
+457
+GraaVM Java compiler Blender
+920
+893
+894
+892
+892
+892
+892
+892
+894
+892
+GraaVM Java compiler Blender2
+69
+3
+3
+3
+3
+3
+3
+3
+3
+3
+GraaVM Java compiler Blender3
+955
+875
+873
+873
+874
+873
+873
+875
+873
+873
+GraaVM Java compiler Blender4
+50
+49
+52
+49
+49
+49
+51
+49
+49
+GraaVM Java compiler Blender5
+413
+369
+433
+267
+293
+265
+306
+266
+273
+265
+GraaVM Java compiler Blender6
+1136
+1120
+1123
+1121
+1122
+1121
+1122
+1123
+1125
+1121
+GraaVM Java compiler Blender7
+886
+69
+71
+107
+60
+59
+60
+59
+59
+59
+GraaVM Java compiler Fibo
+433
+429
+433
+433
+430
+GraaVM Java compiler Fibo2
+306
+283
+354
+315
+312
+317
+314
+312
+GraalVM Java Compiler without C1 Blender
+958
+901
+899
+893
+893
+894
+893
+893
+909
+895
+GraalVM Java Compiler without C1 Blender2
+58
+6
+7
+6
+8
+8
+8
+10
+7
+8
+GraalVM Java Compiler without C1 Blender3
+934
+875
+881
+885
+875
+875
+877
+875
+875
+876
+GraalVM Java Compiler without C1 Blender4
+176
+75
+50
+50
+49
+56
+59
+50
+50
+50
+GraalVM Java Compiler without C1 Blender5
+529
+419
+267
+263
+313
+255
+262
+258
+282
+261
+GraalVM Java Compiler without C1 Blender6
+1165
+1125
+1123
+1129
+1127
+1127
+1127
+1121
+1127
+1130
+GraalVM Java Compiler without C1 Blender7
+916
+65
+88
+70
+94
+87
+81
+79
+81
+80
+GraalVM Java Compiler without C1 Fibo
+604
+437
+432
+431
+430
+GraalVM Java Compiler without C1 Fibo2
+437
+280
+373
+299
+308
+303
+304
+346
+OpenJDK without C1 Blender
+831
+729
+729
+745
+729
+721
+721
+741
+736
+738
+OpenJDK without C1 Blender2
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+OpenJDK without C1 Blender3
+851
+732
+734
+733
+734
+734
+736
+746
+729
+736
+OpenJDK without C1 Blender4
+621
+524
+521
+519
+513
+516
+517
+521
+519
+515
+OpenJDK without C1 Blender5
+639
+418
+402
+272
+283
+283
+279
+275
+276
+282
+OpenJDK without C1 Blender6
+1358
+1292
+1279
+1277
+1276
+1276
+1276
+1275
+1276
+1278
+OpenJDK without C1 Blender7
+704
+561
+641
+543
+525
+572
+527
+551
+532
+524
+OpenJDK without C1 Fibo
+286
+284
+286
+284
+285
+OpenJDK without C1 Fibo2
+293
+308
+305
+295
+300
+300
+304
+304
+GraalVM with print start Blender
+920
+889
+888
+886
+891
+888
+889
+881
+887
+884
+GraalVM with print start Blender2
+26
+4
+4
+4
+4
+4
+4
+4
+4
+4
+GraalVM with print start Blender3
+904
+877
+888
+888
+888
+887
+886
+883
+889
+882
+GraalVM with print start Blender4
+92
+61
+61
+61
+57
+51
+50
+50
+51
+52
+GraalVM with print start Blender5
+659
+319
+400
+392
+282
+282
+278
+275
+284
+276
+GraalVM with print start Blender6
+1182
+1119
+1113
+1121
+1123
+1126
+1129
+1120
+1129
+1131
+GraalVM with print start Blender7
+886
+111
+96
+104
+86
+90
+86
+71
+79
+79
+GraalVM with print start Fibo
+479
+467
+471
+468
+466
+GraalVM with print start Fibo2
+280
+297
+311
+307
+304
+305
+301
+300
+GraalVM Java compiler with print start Blender
+931
+895
+905
+897
+895
+894
+892
+892
+893
+894
+GraalVM Java compiler with print start Blender2
+53
+3
+4
+3
+4
+3
+3
+3
+3
+3
+GraalVM Java compiler with print start Blender3
+886
+871
+875
+875
+879
+877
+870
+868
+874
+869
+GraalVM Java compiler with print start Blender4
+180
+50
+49
+49
+49
+50
+49
+49
+49
+51
+GraalVM Java compiler with print start Blender5
+415
+404
+324
+320
+268
+300
+262
+269
+262
+268
+GraalVM Java compiler with print start Blender6
+1169
+1127
+1124
+1121
+1121
+1121
+1123
+1121
+1121
+1121
+GraalVM Java compiler with print start Blender7
+875
+85
+72
+158
+81
+82
+81
+82
+82
+82
+GraalVM Java compiler with print start Fibo
+502
+435
+436
+448
+434
+GraalVM Java compiler with print start Fibo2
+270
+288
+306
+309
+322
+310
+309
+311
+OpenJDK with print start Blender
+838
+729
+730
+723
+721
+722
+733
+734
+719
+716
+OpenJDK with print start Blender2
+9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+OpenJDK with print start Blender3
+850
+727
+732
+722
+723
+722
+729
+731
+733
+729
+OpenJDK with print start Blender4
+625
+523
+524
+518
+513
+516
+522
+516
+515
+515
+OpenJDK with print start Blender5
+637
+428
+344
+357
+289
+281
+286
+293
+287
+278
+OpenJDK with print start Blender6
+1350
+1298
+1336
+1304
+1284
+1294
+1334
+1295
+1295
+1329
+OpenJDK with print start Blender7
+662
+731
+592
+605
+586
+579
+602
+581
+603
+597
+OpenJDK with print start Fibo
+291
+288
+298
+297
+293
+OpenJDK with print start Fibo2
+296
+307
+303
+354
+348
+348
+353
+344
