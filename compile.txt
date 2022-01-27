@@ -274,6 +274,98 @@ NativeImage fibo2
 458
 458
 457
+GraalVM Java compiler Blender
+1226
+889
+880
+885
+882
+883
+886
+881
+880
+880
+GraalVM Java compiler Blender2
+749
+16
+10
+6
+6
+4
+5
+4
+6
+4
+GraalVM Java compiler Blender3
+1262
+885
+879
+874
+885
+883
+882
+886
+883
+882
+GraalVM Java compiler Blender4
+776
+81
+57
+54
+71
+86
+79
+72
+56
+56
+GraalVM Java compiler Blender5
+1037
+690
+311
+273
+273
+270
+269
+264
+263
+265
+GraalVM Java compiler Blender6
+1492
+1135
+1134
+1129
+1129
+1129
+1136
+1130
+1129
+1131
+GraalVM Java compiler Blender7
+1048
+148
+59
+87
+50
+83
+66
+90
+61
+62
+GraalVM Java compiler Fibo
+744
+521
+447
+432
+434
+GraalVM Java compiler Fibo2
+656
+361
+369
+302
+307
+312
+306
+312
 GraaVM Java compiler Blender
 920
 893

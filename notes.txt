@@ -26,3 +26,31 @@ bootstrap = run all java.* package to make it hot
 https://youtu.be/Rvb-kvuPzqI
 
 https://www.baeldung.com/jvm-tiered-compilation
+
+graph benchmark :
+
+blender = native=GraalVM>OpenJDK
+
+blender2 = native>GraalVM=OpenJDK=0
+
+blender3 = native=GraalVM>OpenJDK
+
+blender4 = native>OpenJDK>>GraalVM
+
+blender5 = native>OpenJDK=GraalVM
+
+blender6 = OpenJDK>native=GraalVM
+
+blender7 = native>OpenJDK>>GraalVM
+
+fibo = native=GraalVM>OpenJDK
+
+fibo2 = native>OpenJDK>GraalVM
+
+blender = blender3 -> non optimisé au build time
+
+blender2 = optimisation trouvée au runtime
+
+blender6 = blender but more efficient for native
+
+blender7 = blender4
